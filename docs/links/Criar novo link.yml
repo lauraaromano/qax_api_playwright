@@ -1,0 +1,27 @@
+info:
+  name: Criar novo link
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:3333/api/links
+  headers:
+    - name: Authorization
+      value: Bearer          eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWlNORVo5OEgwOTBIV1g4NDlEUFREOVMiLCJleHAiOjE3ODY2Njg0MTksImlhdCI6MTc4NjU4MjAxOX0.eHM7lyrggYwPIeWYFEBuXI72bdMnu8s_r2cmTZnC3-s
+  body:
+    type: json
+    data: |-
+      {
+        "original_url": "https://www.instagram.com/laurarom4no",
+        "title": "Exemplo de Site"
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWlNORVo5OEgwOTBIV1g4NDlEUFREOVMiLCJleHAiOjE3ODY2Njg0MTksImlhdCI6MTc4NjU4MjAxOX0.eHM7lyrggYwPIeWYFEBuXI72bdMnu8s_r2cmTZnC3-s
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
