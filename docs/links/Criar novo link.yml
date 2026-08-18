@@ -8,7 +8,7 @@ http:
   url: http://localhost:3333/api/links
   headers:
     - name: Authorization
-      value: Bearer          eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWlNORVo5OEgwOTBIV1g4NDlEUFREOVMiLCJleHAiOjE3ODY2Njg0MTksImlhdCI6MTc4NjU4MjAxOX0.eHM7lyrggYwPIeWYFEBuXI72bdMnu8s_r2cmTZnC3-s
+      value: Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWllKRVFQUlc2RjgyOTZKUkZLVzFQQ00iLCJleHAiOjE3ODY3NDUwNTEsImlhdCI6MTc4NjY1ODY1MX0.Ss2xXfK6NUNLl_yLegv5kxcSfJlhcx9h2a-NY40XBjU
   body:
     type: json
     data: |-
@@ -18,7 +18,7 @@ http:
       }
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWlNORVo5OEgwOTBIV1g4NDlEUFREOVMiLCJleHAiOjE3ODY2Njg0MTksImlhdCI6MTc4NjU4MjAxOX0.eHM7lyrggYwPIeWYFEBuXI72bdMnu8s_r2cmTZnC3-s
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWllKRVFQUlc2RjgyOTZKUkZLVzFQQ00iLCJleHAiOjE3ODY3NDUwNTEsImlhdCI6MTc4NjY1ODY1MX0.Ss2xXfK6NUNLl_yLegv5kxcSfJlhcx9h2a-NY40XBjU
 
 settings:
   encodeUrl: true

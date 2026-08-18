@@ -8,7 +8,7 @@ http:
   url: http://localhost:3333/api/links
   headers:
     - name: Authorization
-      value: Bearer    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWldDNFNGMjg0TTRRQ0s0QzVQQkZCRjYiLCJleHAiOjE3ODY2NzEzMzEsImlhdCI6MTc4NjU4NDkzMX0.UTDXWsfyNAWNGQXpOH6imykPWXz2dHmcaBrB73lu8EQ
+      value: Bearere yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWllKRVFQUlc2RjgyOTZKUkZLVzFQQ00iLCJleHAiOjE3ODY3NDUwNTEsImlhdCI6MTc4NjY1ODY1MX0.Ss2xXfK6NUNLl_yLegv5kxcSfJlhcx9h2a-NY40XBjU
   auth:
     type: bearer
     token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWldDNFNGMjg0TTRRQ0s0QzVQQkZCRjYiLCJleHAiOjE3ODY2NzEzMzEsImlhdCI6MTc4NjU4NDkzMX0.UTDXWsfyNAWNGQXpOH6imykPWXz2dHmcaBrB73lu8EQ

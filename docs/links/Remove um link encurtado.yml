@@ -5,10 +5,10 @@ info:
 
 http:
   method: DELETE
-  url: http://localhost:3333/api/links/01KZYJG5D8Y8YGRF1BH0BWZPJH
+  url: http://localhost:3333/api/links/01KZTY6JKZ4PF7VEC2Z67F2A
   headers:
     - name: Authorization
-      value: Bearere yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWllKRVFQUlc2RjgyOTZKUkZLVzFQQ00iLCJleHAiOjE3ODY3NDUwNTEsImlhdCI6MTc4NjY1ODY1MX0.Ss2xXfK6NUNLl_yLegv5kxcSfJlhcx9h2a-NY40XBjU
+      value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMDFLWllKRVFQUlc2RjgyOTZKUkZLVzFQQ00iLCJleHAiOjE3ODY3NDUwNTEsImlhdCI6MTc4NjY1ODY1MX0.Ss2xXfK6NUNLl_yLegv5kxcSfJlhcx9h2a-NY40XBjU
 
 settings:
   encodeUrl: true
